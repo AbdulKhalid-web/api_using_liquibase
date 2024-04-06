@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+<!--    <changeSet author="yum hai hum" id="44">-->
+<!--        <insert tableName="changev1">-->
+<!--            <column name="DEPTNO" value="89" />-->
+<!--            <column name="DNAME" value="endover67" />-->
+<!--            <column name="LOC" value="trre" />-->
+<!--            <column name="address" value="neerfdsal" />-->
+<!--            <column name="name" value="riti" />-->
+
+<!--        </insert>-->
+
+<!--    </changeSet>-->
+
+</databaseChangeLog>
