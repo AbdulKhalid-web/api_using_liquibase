@@ -35,6 +35,10 @@ public class product {
     public void setId(Integer id) {
         this.id = id;
     }
+    public product(int a) {
+        System.out.println("kahlsidsa oia");
+    }
+
 
     public String getName() {
         return name;
