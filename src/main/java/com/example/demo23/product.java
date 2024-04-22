@@ -26,6 +26,12 @@ public class product {
         System.out.println("ljakl");
     }
 
+    public product(int e, int s,int w){
+        System.out.println("is the last change to workk and how we creatte to all those messagew");
+    }
+
+
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
