@@ -25,6 +25,10 @@ public class product {
     public product(int a , int b){
         System.out.println("ljakl");
     }
+    public product(int a , int b, int c){
+        System.out.println("thats the ocmme to  the comit from new branch");
+    }
+
 
 
     @Id
