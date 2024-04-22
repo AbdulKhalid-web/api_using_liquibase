@@ -31,6 +31,9 @@ public class ProductServies {
     public void delete(Integer id) {
         repo.deleteById(id);
     }
+
+    public void create(Integer id) {repo.equals(id);
+    }
 }
 
 
