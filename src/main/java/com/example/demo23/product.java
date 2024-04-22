@@ -22,6 +22,10 @@ public class product {
 
     public product() {
     }
+    public product(int a , int b){
+        System.out.println("ljakl");
+    }
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
