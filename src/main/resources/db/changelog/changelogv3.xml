@@ -4,16 +4,21 @@
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
                    https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
 
-<!--    <changeSet author="yum hai hum" id="44">-->
-<!--        <insert tableName="changev1">-->
-<!--            <column name="DEPTNO" value="89" />-->
-<!--            <column name="DNAME" value="endover67" />-->
-<!--            <column name="LOC" value="trre" />-->
-<!--            <column name="address" value="neerfdsal" />-->
-<!--            <column name="name" value="riti" />-->
+    <changeSet author="changes" id="1">
+        <addColumn catalogName="mydb"
+                   schemaName= "public"
+                   tableName="product">
+<!--            <column name="model"-->
+<!--                    type="varchar(255)"/>-->
+<!--            <column name="desc"-->
+<!--                    type="varchar(50)">-->
+<!--                <constraints nullable="false" />-->
+<!--            </column>-->
+            <column defaultValueComputed="NOW(3)" name="Create_date" type="TIMESTAMP(3)">
+                <constraints nullable="false" />
+            </column>
+        </addColumn>
+    </changeSet>
 
-<!--        </insert>-->
-
-<!--    </changeSet>-->
 
 </databaseChangeLog>

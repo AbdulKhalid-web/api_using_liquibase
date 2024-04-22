@@ -22,15 +22,6 @@ public class product {
 
     public product() {
     }
-    public product(int a , int b){
-        System.out.println("ljakl");
-    }
-    public product(int a , int b, int c){
-        System.out.println("thats the ocmme to  the comit from new branch");
-    }
-
-
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Integer getId() {
@@ -58,6 +49,14 @@ public class product {
 
     public void setPrice(float price) {
         this.price = price;
+    }
+
+    public static void main(String[] args) {
+        product pro = new product();
+        pro.id = 0;
+        pro.name = "khaldo";
+        pro.price = 904;
+
     }
 }
 

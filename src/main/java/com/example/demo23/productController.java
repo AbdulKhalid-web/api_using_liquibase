@@ -12,7 +12,7 @@ public class productController {
 
     @GetMapping("/home")
     public String home() {
-        return "lets try to make fun ";
+        return "lets try to make fun with new task";
 
     }
 
@@ -33,12 +33,12 @@ public class productController {
 //    // RESTful API method for Delete operation
 //
 //
-//    @PostMapping("/products")
-//    public void add(@RequestBody product product) {
-//        service.save(product);
-//        System.out.println("okk");
-//    }
-//
+    @PostMapping("/products")
+    public void add(@RequestBody product product) {
+        service.save(product);
+        System.out.println("okk");
+    }
+
 //
 //
 //    @PutMapping("/products/{id}")

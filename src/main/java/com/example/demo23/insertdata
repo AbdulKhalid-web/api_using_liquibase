@@ -1,0 +1,2 @@
+INSERT INTO product (name, price) VALUES ('Johdasn', 43334);
+SELECT * FROM PRODUCT;
