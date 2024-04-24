@@ -1,6 +1,9 @@
 package com.example.demo23;
 
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -12,7 +15,7 @@ public class productController {
 
     @GetMapping("/home")
     public String home() {
-        return "lets try to make fun with new task";
+        return "display checking ";
 
     }
 
@@ -24,19 +27,11 @@ public class productController {
 
     }
 
-//    // RESTful API methods for Retrieval operations
-//
-//    // RESTful API method for Create operation
-//
-//    // RESTful API method for Update operation
-//
-//    // RESTful API method for Delete operation
-//
-//
     @PostMapping("/products")
     public void add(@RequestBody product product) {
         service.save(product);
         System.out.println("okk");
+
     }
 
 //

@@ -22,6 +22,9 @@ public class product {
 
     public product() {
     }
+
+
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Integer getId() {
@@ -30,10 +33,6 @@ public class product {
     public void setId(Integer id) {
         this.id = id;
     }
-    public product(int a) {
-        System.out.println("kahlsidsa oia");
-    }
-
 
     public String getName() {
         return name;
@@ -49,14 +48,6 @@ public class product {
 
     public void setPrice(float price) {
         this.price = price;
-    }
-
-    public static void main(String[] args) {
-        product pro = new product();
-        pro.id = 0;
-        pro.name = "khaldo";
-        pro.price = 904;
-
     }
 }
 
